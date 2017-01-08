@@ -17,6 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="panel-body text-center">
 					<h2>Elephant</h2>
 					<h3>Sitio en contrucción</h3>
+					<button class="btn btn-lg btn-primary">Ingresar</button>
 				</div>
 			</div>
 		</div>

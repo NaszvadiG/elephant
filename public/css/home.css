@@ -1,8 +1,18 @@
 body
 {
-	background: url('/public/images/home_background_1920x1080.jpg') center top no-repeat;
+	background: url('/public/images/weather.png') repeat;
+}
+.panel
+{
+	border-radius: 15px;
 }
 .advise
 {
-	margin-top: 250px;
+	margin-top: 150px;
+	color: rgb(255, 96, 175);
+}
+.advise .panel-body
+{
+	border-radius: 15px;
+	background-color: yellow;
 }
