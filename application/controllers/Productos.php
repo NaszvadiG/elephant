@@ -175,14 +175,14 @@ class Productos extends CI_Controller {
 		if($this->input->post('producto') == '')
 		{
 			$data['inputerror'][] = 'producto';
-			$data['error_string'][] = 'producto is required';
+			$data['error_string'][] = 'Por favor, ingrese el nombre del producto';
 			$data['status'] = FALSE;
 		}
 
 		if($this->input->post('fecha') == '')
 		{
 			$data['inputerror'][] = 'fecha';
-			$data['error_string'][] = 'fecha is required';
+			$data['error_string'][] = 'Por favor, ingrese una fecha';
 			$data['status'] = FALSE;
 		}
 

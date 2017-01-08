@@ -63,3 +63,4 @@ $route['panel/(:any)/(:num)'] = 'panel/$1/$2';
 $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route[LOGIN_PAGE] = 'examples/login';
